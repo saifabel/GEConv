@@ -1,0 +1,6 @@
+Namespace(batch_size=32, cycle=False, dataset='modelnet40', dropout=0.0, emb_dims=512, emb_nn='pointnet', epochs=250, eval=True, exp_name='exp', factor=4, ff_dims=1024, gaussian_noise=True, head='svd', k=20, lr=0.001, model='gec', model_path='', momentum=0.9, n_blocks=1, n_heads=4, no_cuda=False, num_points=1024, pointer='transformer', seed=1234, test_batch_size=4, unseen=False, use_global=False, use_sgd=False, with_normal=True)
+==FINAL TEST==
+A--------->B
+EPOCH:: -1, Loss: 0.000024, Cycle Loss: 0.000000, MSE: 0.236359, RMSE: 0.486168, MAE: 0.378050, rot_MSE: 0.115826, rot_RMSE: 0.340333, rot_MAE: 0.212367, trans_MSE: 0.000003, trans_RMSE: 0.001748, trans_MAE: 0.001406
+B--------->A
+EPOCH:: -1, Loss: 0.000024, MSE: 0.533051, RMSE: 0.730103, MAE: 0.593306, rot_MSE: 2764.265381, rot_RMSE: 52.576283, rot_MAE: 45.676701, trans_MSE: 0.296691, trans_RMSE: 0.544693, trans_MAE: 0.464778

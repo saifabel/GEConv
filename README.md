@@ -1,5 +1,5 @@
 # GEConv: Geometric Edge Convolution for Rigid Transformation Invariant Features in 3D Point Clouds
-
+PyTorch implementation of the paper [Geometric edge convolution for rigid transformation invariant features in 3D point clouds](https://www.sciencedirect.com/science/article/abs/pii/S0925231224020848).
 # Datasets
 Get the datasets and place them in the data folder.
 
